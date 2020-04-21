@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: GhostRicity/retro-back
+
+  use_graphql: true
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - label: Blog
+    name: blog
+    folder: content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }

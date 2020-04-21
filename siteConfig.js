@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'London After Midnight',
-  shortName: 'LAM',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
+  name: 'Retro Back',
+  shortName: 'RB',
+  description: 'Life is to short to drive a boring car!',
   url: 'https://gatsby-lam.vaporwavy.io', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Vaporwavy',
+  author: 'eddythedev',
   twitter: ''
 }
