@@ -27,12 +27,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-remark-normalize-paths",
-      options: {
-        pathFields: ["image"],
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
