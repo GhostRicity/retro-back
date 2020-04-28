@@ -27,11 +27,5 @@ collections:
         label: Featured Image,
         widget: image,
         required: false,
-        default: static/assets,
-        media_library:
-          config:
-            multiple: ture
-
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
-      - { label: "Tags", name: "tags", widget: "list" }
