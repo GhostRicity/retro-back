@@ -6,8 +6,8 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: static/assets
-public_folder: assets
+media_folder: static/img
+public_folder: img
 
 collections:
   - label: Blog
@@ -17,11 +17,7 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date }
-      - {
-          name: thumbnail,
-          label: Featured Image,
-          widget: image,
-          required: false,
-        }
+      - { name: thumbnail, label: thumbnail, widget: image, required: false }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+      - { label: "Tags", name: "tags", widget: "string" }
