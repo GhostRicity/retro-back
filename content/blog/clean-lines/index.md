@@ -1,14 +1,12 @@
 ---
-title: Clean lines
+title: Moskvich 2140
 date: "2019-05-05"
-thumbnail: ./matthew-hamilton-351641-unsplash.jpg
+thumbnail: ./2014mo.jpg
 description: Let your hair down and paint the town red
 ---
 
-![Clean lines](./clem-onojeghuo-207792-unsplash.jpg)
+This one only has 17k km on it and not only that but also the same tiers that it rolled out of the factory. a period-correct peace. Enyo the 4-speed transmission and excitement of going 100km on the high way with no power steering.
 
-![Clean lines](./mitch-lensink-588486-unsplash.jpg)
+![Moskvich](./front.jpg)
 
-![Clean lines](./ricardo-gomez-angel-180819-unsplash.jpg)
-
-![Clean lines](./joanna-kosinska-254406-unsplash.jpg)
+![Moskvich](./back.jpg)

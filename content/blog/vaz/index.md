@@ -6,24 +6,24 @@ description: They may be old but they look new
 tags: [car, vaz, retro]
 ---
 
-I used a poly reduction on the mesh as a proxy to be able to create my studio setup with a responsive viewport. I used a simple 2 point lighting setup. I created a roughness map using the height map to get the exact results I was looking. After that, I applied my material to the high poly mesh and used a subtle smoothing deformer for the creases.
-
-This is the final render.
+Lada a car brand that started back in the soviet times. These cars are not fast or comfortable but they are built to last and they do last. simple boxy look with elegant lines. Simple modern-day modifications cam make these cars feel like the retro bombshells they are. White walls and fuzzy dice!
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Vaz](./dan-gold-N7RiDzfF2iw-unsplash.jpg)
+![Vaz](./elvis-bekmanis-brYwrIR2Yq0-unsplash.jpg)
+
+</div>
+
+They are simple to work on!
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Vaz](./marjanblan-QPCH59pKJXk-unsplash.jpg)
 
 </div>
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Darkness](./marjanblan-QPCH59pKJXk-unsplash.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![Darkness](./nikita-kachanovsky-_IfQPphp_EE-unsplash.jpg)
+![Vaz](./dima-khudorozhkov-NY2l4Noqbmo-unsplash.jpg)
 
 </div>

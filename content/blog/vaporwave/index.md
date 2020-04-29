@@ -1,10 +1,9 @@
 ---
-title: Vaporwave
-date: "2019-11-11"
-tags: [vaporwave,retrowave,future-funk]
-description: I think the most trendy is the oldest. Vaporwave is an Internet-based microgenre that was built upon the experimental and ironic tendencies of genres such as chillwave and hypnagogic pop.
+title: What is Retro Back?
+date: "2020-11-10"
+tags: [abaut, eddythedev]
+description: This is a catalog for retro cars that you can purchase gems of the past.
 ---
 
-It draws primarily on musical and cultural sources from the 1980s and early 1990s while also being associated with an ambiguous or satirical take on consumer capitalism and technoculture. Early incarnations of vaporwave relied on the sampling of sources such as Japanese city pop, smooth jazz, retro elevator music, R&B, lounge music, and dance music from the 1980s and 1990s.
-
-* See the [Wikipedia](https://en.wikipedia.org/wiki/Vaporwave) for more information.
+A kind of love connected to a primal impulse. Most of us need to get to point a to point b but for some, a car is more. Its a part of a family a taste of freedom and the joy of driving. the thrill of the road and the journey.
+Contact me for pricing and dilivery: eddythedev@gmail.com

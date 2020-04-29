@@ -1,14 +1,12 @@
 ---
-title: All spikes
+title: Projects
 date: "2019-05-04"
-thumbnail: ./charles-deluvio-695732-unsplash.jpg
-description: A cactus doesn't live in the desert because it likes the desert; it lives there because the desert hasn't killed it yet.
+thumbnail: ./daniel-wiadro-GAEvM4qvlBk-unsplash.jpg
+description: Ther are cars in progres come see!
 ---
 
-![Cactus](./charles-deluvio-695757-unsplash.jpg)
+We are working on more cars every month
 
-![Cactus](./charles-deluvio-695736-unsplash.jpg)
+![bug](./dan-gold-N7RiDzfF2iw-unsplash.jpg)
 
-![Cactus](./charles-deluvio-695758-unsplash.jpg)
-
-![Cactus](./charles-deluvio-695733-unsplash.jpg)
+![work on car](./elvis-bekmanis-vObWeKIt1Go-unsplash.jpg)
