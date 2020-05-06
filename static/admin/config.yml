@@ -20,4 +20,4 @@ collections:
       - { name: thumbnail, label: thumbnail, widget: image, required: false }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
-      - { label: "Tags", name: "tags", widget: "string" }
+      - { name: tags, label: Tags, widget: string }
