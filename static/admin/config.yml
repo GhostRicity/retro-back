@@ -19,5 +19,5 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: thumbnail, label: thumbnail, widget: image, required: false }
       - { name: description, label: Description }
-      - { name: body, label: Body, widget: markdown }
       - { name: tags, label: Tags, widget: string }
+      - { name: body, label: Body, widget: markdown }
