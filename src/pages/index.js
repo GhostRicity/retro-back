@@ -71,6 +71,7 @@ const indexQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+              publicURL
             }
           }
         }
