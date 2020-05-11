@@ -64,8 +64,12 @@ export const pageQuery = graphql`
             tags
             thumbnail {
               childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid_withWebp
+                fluid(maxWidth: 1360, quality: 75) {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
                 }
               }
               publicURL
