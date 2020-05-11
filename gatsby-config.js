@@ -1,6 +1,13 @@
 const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
+var netlifyCmsPaths = {
+  resolve: `gatsby-plugin-netlify-cms-paths`,
+  options: {
+    cmsConfig: `/static/admin/config.yml`,
+  },
+}
+
 module.exports = {
   siteMetadata: {
     title: siteConfig.name,
@@ -12,26 +19,13 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          netlifyCmsPaths,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -42,6 +36,23 @@ module.exports = {
               wrapperStyle: `margin: 7vw 0;`,
             },
           },
+          `gatsby-remark-relative-images`,
+          netlifyCmsPaths,
+          {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              path: `/${__dirname}/content/blog`,
+              name: `blog`,
+            },
+          },
+          {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              path: `/${__dirname}/content/assets`,
+              name: `assets`,
+            },
+          },
+
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {

@@ -21,6 +21,7 @@ const BlogIndex = ({ data }, location) => {
         title="Posts"
         keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
       />
+      {/* <Bio /> */}
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
@@ -67,7 +68,7 @@ const indexQuery = graphql`
             tags
             thumbnail {
               childImageSharp {
-                fluid(maxWidth: 1360) {
+                fluid(maxWidth: 1360, quality: 75) {
                   src
                   srcSet
                   aspectRatio

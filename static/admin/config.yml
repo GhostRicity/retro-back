@@ -17,7 +17,7 @@ collections:
     fields:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
-      - { name: thumbnail, label: thumbnail, widget: image, required: false }
+      - { name: thumbnail, label: thumbnail, widget: image }
       - { name: description, label: Description }
       - { name: tags, label: tags, widget: string }
       - { name: body, label: Body, widget: markdown }
