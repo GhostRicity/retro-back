@@ -22,6 +22,20 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `/${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `/${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -38,21 +52,6 @@ module.exports = {
           },
           `gatsby-remark-relative-images`,
           netlifyCmsPaths,
-          {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-              path: `/${__dirname}/content/blog`,
-              name: `blog`,
-            },
-          },
-          {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-              path: `/${__dirname}/content/assets`,
-              name: `assets`,
-            },
-          },
-
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
