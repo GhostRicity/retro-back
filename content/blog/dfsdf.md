@@ -1,17 +1,17 @@
 ---
 date: 2020-05-12T12:14:42.971Z
-title: dfsdf
-thumbnail: "../img/s-l300.jpg"
+title: Thumbnail_Test
+thumbnail: /img/firefox_wallpaper.png
 description: "some erros "
-tags: [car]
+tags:
+  - car
 ---
-
 sdfasdfasdf
 
-![](../img/s-l300.jpg)
+![s](/img/firefox_wallpaper.png "s")
 
 hjjh
 
-\
+sdfsdf
 
-![](../img/screenshot-from-2020-03-18-11-19-13.png)
+![sdfsd](/img/firefox_wallpaper.png "sdfsd")
