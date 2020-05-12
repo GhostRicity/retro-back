@@ -3,11 +3,10 @@ date: 2020-05-12T12:14:42.971Z
 title: dfsdf
 thumbnail: /img/s-l300.jpg
 description: "some erros "
-tags: "[car]"
+tags: [car]
 ---
+
 sdfasdfasdf
-
-
 
 ![](/img/s-l300.jpg)
 
