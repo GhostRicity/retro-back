@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: GhostRicity/retro-back
+  repo: GhostRicity/archy-styles
   branch: master
   use_graphql: true
 
