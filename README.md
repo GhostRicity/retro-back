@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-  London After Midnight
+  London After Midnight Persenoal blog
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vaporwavy/gatsby-london-after-midnight)
 
@@ -14,21 +14,25 @@
 
 ---
 
+This is a modifide version of London After Midnight. The new adition is a fully working Netlfy Admin system alowing for post to be crated threw the Netlfy CMS
+
 A custom, image-centric theme for Gatsby. Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
 
-**Based on [London](https://github.com/ImedAdel/gatsby-london) for Gatsby**
+**Based on [London After Midnight](https://github.com/ImedAdel/gatsby-london) for Gatsby**
 
-**Demo: https://gatsby-lam.vaporwavy.io**
+**Demo: https://festive-wescoff-a365e2.netlify.app/**
 
 ---
 
 ### What is different from London?
-* Support Tag
-* Full Recoloring for Dark themes
-* Highlight Syntax with Prism.js
-* Support Korean and Japanese
-* Parameterize All Colors
-* Change the Format of Thumbnailless Postcards
+
+- Support Tag
+- Full Recoloring for Dark themes
+- Highlight Syntax with Prism.js
+- Support Korean and Japanese
+- Parameterize All Colors
+- Change the Format of Thumbnailless Postcards
+- Implemented Netlfy admin panel with image Support
 
 ---
 
@@ -42,7 +46,7 @@ _First time with Gatsby? Take a look on the [official and community-created star
 
     ```sh
     # create a new Gatsby site using the blog starter
-    npx gatsby new my-awesome-portfolio https://github.com/vaporwavy/gatsby-london-after-midnight
+    npx gatsby new my-awesome-portfolio https://github.com/GhostRicity/retro-back
     ```
 
 1.  **Start developing.**
@@ -63,4 +67,3 @@ _First time with Gatsby? Take a look on the [official and community-created star
     Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-# retro-back
