@@ -69,11 +69,7 @@ const indexQuery = graphql`
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 1360, quality: 75) {
-                  src
-                  srcSet
-                  aspectRatio
-                  sizes
-                  base64
+                  ...GatsbyImageSharpFluid
                 }
               }
               publicURL
